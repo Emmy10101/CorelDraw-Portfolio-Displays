@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+/* .container {
+    margin: 0px 10px 0px 10px;
+} */
+
+.firstnav .container {
+    background-color: rgb(15, 15, 15);
+    color: rgb(35, 35, 35);
+    padding: 5px 7px;
+}
+
+.firstnav .container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.firstnav .container i {
+    margin-right: 3px;
+}
+
+.navbar .container {
+    background-color: rgb(25, 35, 35);
+    height: 70px;
+    padding: 5px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .container .logo {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+}
+
+.navbar .container .menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 390px;
+}
+
+.navbar .container li a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.navbar .container li a:hover {
+    transition: 1s;
+    color: rgba(0, 255, 13, 0.726);
+}
+
+.sec1 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 .container .pic1 {
+    background-image: url('./img/businesscard2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 250px;
+}
+
+.sec1 .container .pic-dis {
+    color: gold;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding-top: 15px; */
+}
+
+.sec1 .container .pic2 {
+    background-image: url('./img/binsypoplars.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 250px;
+}
+
+.sec1 .container .pic3 {
+    background-image: url('./img/binseypoplars2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 250px;
+}
+
+.sec1 .container .pic4 {
+    background-image: url('./img/schoolflyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 1000px;
+}
+
+.sec1 .container .pic5 {
+    background-image: url('./img/eventflyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 1000px;
+}
+
+.sec1 .container .pic6 {
+    background-image: url('./img/businessflyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 1000px;
+}
+
+
+
+/* .sec1 .container .group1 {
+    display: flex;
+    height: 100px;
+    
+}
+.sec1 {
+    padding: 5px;
+}
+
+.sec1 .container .pic-dis {
+    color: gold;
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 .container .group1 .pic-dis .pic1 {
+    background-image: url('./img/businesscard2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 150px;
+    margin-right: 5px;
+}
+
+.sec1 .container .group1 .pic2 {
+    background-image: url('./img/binsypoplars.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 150px;
+    margin-right: 5px;
+}
+
+.sec1 .container .group1 .pic-dis {
+    padding-right: 10px;
+}
+
+.sec1 .container .group1 .pic3 {
+    background-image: url('./img/binseypoplars2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 150px;
+    margin-right: 5px;
+}
+
+.sec1 .container .group2 {
+    display: flex;
+}
+
+.sec1 .container .group2 .pic4 {
+    background-image: url('./img/schoolflyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 450px;
+    height: 200px;
+}
+
+.sec1 .container .group2 .pic5 {
+    background-image: url('./img/eventflyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 200px;
+}
+
+.sec1 .container .group2 .pic6 {
+    background-image: url('./img/businessflyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 200px;
+}
+
+.sec1 .container .group2 .pic6 img {
+    text-align: center;
+} */

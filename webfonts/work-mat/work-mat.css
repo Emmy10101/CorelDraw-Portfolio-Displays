@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:wheat;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 30px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+/* ul{
+    list-style:none;
+} */
+
+.firstnav{
+    background-color: rgb(15, 15, 15);
+    padding: 6px;
+    border-bottom:2px rgb(25, 25, 25) solid;
+
+}
+
+.firstnav .container{
+    display:flex;
+    color:rgb(50, 50, 50);
+    justify-content: space-between;
+}
+
+
+
+.make-appointment{
+    background-color:red;
+    color: #fff;
+    width:135px;
+    
+}
+
+.make-appointment a{
+    text-decoration: none;
+    color:#fff;
+    margin-left: 3.5px;
+    
+}
+
+.navbar{
+    background-color:rgb(15, 15, 15);
+    padding: 15px;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar .container .logo{
+    font-size: 25px;
+    color: gold;
+}
+
+.navbar .container .nav{
+    display:flex;
+    justify-content: space-between;
+    list-style:none;
+    width: 220px;
+}
+
+.navbar .container .nav a{
+    text-decoration: none;
+    color:rgb(150, 150, 150);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
